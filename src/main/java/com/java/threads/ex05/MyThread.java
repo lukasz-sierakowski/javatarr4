@@ -6,6 +6,7 @@ public class MyThread extends Thread {
     public void run() {
         for (int i = 0; i < 1000; i++) {
             Data.counter.addAndGet(1);
+            //Data.counter++;
         }
     }
 }
